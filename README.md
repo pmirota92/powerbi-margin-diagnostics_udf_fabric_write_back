@@ -7,6 +7,10 @@
 
 ## 📌 Executive Summary
 Standard BI dashboards are historically passive—they only report on what has happened. This repository demonstrates an enterprise architecture pattern that transcends traditional reporting by acting as an active **Data App**. 
+Demo:
+
+https://github.com/user-attachments/assets/7f302426-1fc5-4746-89fa-6df6e605b434
+
 
 By leveraging **Microsoft Fabric Native Writeback**, users can take immediate operational action on insights without leaving the Power BI environment, creating a true "Closed-Loop" analytical pipeline.
 
