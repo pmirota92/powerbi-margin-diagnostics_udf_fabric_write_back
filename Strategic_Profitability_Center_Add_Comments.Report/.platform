@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Strategic_Profitability_Center_Add_Comments"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "03d462e3-0c71-4ff7-acbb-6619b3f71f46"
+  }
+}

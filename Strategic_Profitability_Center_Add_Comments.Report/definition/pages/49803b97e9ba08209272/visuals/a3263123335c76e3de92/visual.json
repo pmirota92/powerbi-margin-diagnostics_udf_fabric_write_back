@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "a3263123335c76e3de92",
+  "position": {
+    "x": 965,
+    "y": 618.33333333333337,
+    "z": 14000,
+    "height": 148.33333333333334,
+    "width": 390,
+    "tabOrder": 14000
+  },
+  "visual": {
+    "visualType": "textSlicer",
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Add comment'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "17e839b25d78227b68c7",
+  "position": {
+    "x": 953.33333333333337,
+    "y": 810,
+    "z": 15000,
+    "height": 165,
+    "width": 415,
+    "tabOrder": 15000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CustomerActionPlans"
+                    }
+                  },
+                  "Property": "ActionPlanText"
+                }
+              },
+              "queryRef": "CustomerActionPlans.ActionPlanText",
+              "nativeQueryRef": "ActionPlanText"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CustomerActionPlans"
+                    }
+                  },
+                  "Property": "CustomerID"
+                }
+              },
+              "queryRef": "CustomerActionPlans.CustomerID",
+              "nativeQueryRef": "CustomerID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CustomerActionPlans"
+                    }
+                  },
+                  "Property": "CreatedAt"
+                }
+              },
+              "queryRef": "CustomerActionPlans.CreatedAt",
+              "nativeQueryRef": "CreatedAt"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "CustomerActionPlans"
+                  }
+                },
+                "Property": "CreatedAt"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "214.41041162262053D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CustomerActionPlans.ActionPlanText"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
